@@ -1,6 +1,7 @@
 # HCYAI Canvas Releases
 
-HCYAI Canvas 是山东世博华创动漫传媒有限公司推出的企业级 AI 创作无限画布。
+HCYAI Canvas 
+是山东世博华创动漫传媒有限公司推出的企业级 AI 创作无限画布。
 
 本仓库仅用于公开发布 Windows 安装包、自动更新元数据、公告与更新日志，不包含 HCYAI Canvas、AI 画布、Agent 或后端的完整源码。
 
