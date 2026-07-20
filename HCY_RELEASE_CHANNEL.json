@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-20T12:00:00+08:00",
+  "releases": [
+    {
+      "version": "2.7.5",
+      "title": "HCYAI Canvas v2.7.5",
+      "publishedAt": "2026-07-20T12:00:00+08:00",
+      "summary": "启用私有源码与公开二进制发布隔离，并完善华创云专有许可与第三方声明。",
+      "notes": [
+        "保存路径支持系统文件夹浏览，不再需要手动输入完整路径。",
+        "切换保存路径时可自动迁移已有文件，并显示文件数、容量、进度和结果状态。",
+        "发现新版本时自动弹出更新提示，支持今日或七日内不再提示。",
+        "更新中心支持手动检查、下载安装、更新日志和公告条件同步。",
+        "公告与更新日志使用 ETag 本地缓存，远端文件未变化时不会重复下载内容。",
+        "完整源码转入私有仓库，公开更新仓库仅保留安装包和更新元数据。",
+        "安装目录新增华创云专有许可、T8 MIT 许可和第三方版权声明。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v2.7.5"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "release-center-online-20260720",
+      "title": "HCYAI Canvas 发布中心已启用",
+      "body": "后续公告会自动同步到各地客户端。公告变化不会触发软件更新弹窗，只有发现更高的软件版本时才会提示更新。",
+      "level": "info",
+      "publishedAt": "2026-07-20T00:00:00+08:00",
+      "expiresAt": "",
+      "linkLabel": "HCYAI 官网",
+      "linkUrl": "https://hcyai.cn/"
+    }
+  ]
+}

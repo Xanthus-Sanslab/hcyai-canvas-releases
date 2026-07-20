@@ -1,0 +1,5 @@
+*.exe
+*.exe.blockmap
+latest.yml
+dist_electron/
+
