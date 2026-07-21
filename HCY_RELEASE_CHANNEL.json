@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-20T12:00:00+08:00",
+  "updatedAt": "2026-07-21T16:00:00+08:00",
   "releases": [
+    {
+      "version": "2.7.7",
+      "title": "HCYAI Canvas v2.7.7",
+      "publishedAt": "2026-07-21T16:00:00+08:00",
+      "summary": "恢复主流图像与视频模型，完善首次引导、生成反馈和 Agent 默认配置。",
+      "notes": [
+        "恢复 Nano Banana、Seedance 等主流模型，并精简老旧高价模型的前端展示。",
+        "图像与视频生成加入分阶段体验进度，移除 0% 和不准确的预计时间提示。",
+        "新增首次启动分步引导，并精确高亮公告更新按钮与底部项目快捷栏。",
+        "修复默认界面、更新按钮布局和部分节点文字清晰度问题。",
+        "Agent 默认使用 DeepSeek V4 Pro，同时保留用户手动选择的其他模型。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v2.7.7"
+    },
     {
       "version": "2.7.5",
       "title": "HCYAI Canvas v2.7.5",
