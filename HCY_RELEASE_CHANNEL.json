@@ -1,3 +1,15 @@
+"announcements": [
+  {
+    "id": "announcement-20260721",
+    "title": "v2.7.7更新",
+    "body": "本次更新优化了模型列表的显示及画布显示效果。优化了生成的进度展示和修复了一些问题、优化了整体体验。新增首次使用引导，用户可在设置中点击重新查看。",
+    "level": "info",
+    "publishedAt": "2026-07-21T16:00:00+08:00",
+    "expiresAt": "",
+    "linkLabel": "官网地址",
+    "linkUrl": "https://hcyai.cn/"
+  }
+]
 {
   "schemaVersion": 1,
   "updatedAt": "2026-07-21T16:00:00+08:00",
