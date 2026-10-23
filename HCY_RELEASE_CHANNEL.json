@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:23:01+08:00",
+  "updatedAt": "2026-10-23T11:10:38.672Z",
   "releases": [
+    {
+      "version": "3.0.1",
+      "title": "HCYAI Canvas v3.0.1",
+      "publishedAt": "2026-10-23T11:10:38.672Z",
+      "summary": "完善原图缩放拖动、积分按需刷新，并减少复杂画布的重复计算。",
+      "notes": [
+        "图片双击预览支持滚轮缩放与按住拖动；无需先放大，点击“适应窗口”即可恢复居中。下载仍使用原图。",
+        "优化复杂画布持续平移时的重复样式计算，减少自动保存与撤销历史的重复复制；保留现有视觉、动效与操作规则。",
+        "积分不再定时轮询或随窗口切换反复查询。启动读取一次，使用中按需校准；成功任务先按匹配报价暂记消费，查询恢复后校准，失败时保留已知余额。",
+        "云图像新建选择移除原版 Nano Banana，保留 Banana 2、Pro 与 Image 2；旧工程、历史和已有任务不迁移。",
+        "保留画布、历史、设置、原始素材和任务续查，不改模型生成能力及实际计费。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.1"
+    },
     {
       "version": "3.0.0",
       "title": "HCYAI Canvas v3.0.0",
@@ -52,14 +66,14 @@
   ],
   "announcements": [
     {
-      "id": "announcement-20261023-v3-0-0",
-      "title": "华创云画布 3.0.0 已发布",
-      "body": "本次更新完善使用教程，并优化节点编辑区、媒体预览及重复请求处理。先选中已有参考素材的节点，再选中目标节点，按 Tab 可快速复用兼容素材连线，再次按 Tab 取消本次新增连接；输入框内不会触发。新教程可在设置中重新查看，详细变化请查看更新日志。主站官网现为 hcyai.org。大型复杂画布的拖动流畅度仍在持续优化。",
+      "id": "announcement-20261023-v3-0-1",
+      "title": "华创云画布 3.0.1 更新",
+      "body": "原图预览现在支持滚轮缩放和直接拖动；积分改为启动及按需刷新，减少重复请求。优化保存、撤销与部分平移计算，保留已有数据和操作习惯。复杂画布起步与松手停顿仍在持续优化。",
       "level": "info",
-      "publishedAt": "2026-10-23T15:23:01+08:00",
+      "publishedAt": "2026-10-23T11:10:38.672Z",
       "expiresAt": "",
-      "linkLabel": "查看 3.0.0 更新",
-      "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.0"
+      "linkLabel": "查看更新",
+      "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.1"
     },
     {
       "id": "announcement-20260721",
@@ -80,6 +94,16 @@
       "expiresAt": "",
       "linkLabel": "HCYAI 官网",
       "linkUrl": "https://hcyai.org/"
+    },
+    {
+      "id": "announcement-20261023-v3-0-0",
+      "title": "华创云画布 3.0.0 已发布",
+      "body": "本次更新完善使用教程，并优化节点编辑区、媒体预览及重复请求处理。先选中已有参考素材的节点，再选中目标节点，按 Tab 可快速复用兼容素材连线，再次按 Tab 取消本次新增连接；输入框内不会触发。新教程可在设置中重新查看，详细变化请查看更新日志。主站官网现为 hcyai.org。大型复杂画布的拖动流畅度仍在持续优化。",
+      "level": "info",
+      "publishedAt": "2026-10-23T15:23:01+08:00",
+      "expiresAt": "",
+      "linkLabel": "查看 3.0.0 更新",
+      "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.0"
     }
   ]
 }
