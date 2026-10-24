@@ -1,7 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T12:43:36.073Z",
+  "updatedAt": "2026-10-24T12:00:00+08:00",
   "releases": [
+    {
+      "version": "3.0.2",
+      "title": "HCYAI Canvas v3.0.2",
+      "publishedAt": "2026-10-24T12:00:00+08:00",
+      "summary": "修复单节点框选覆盖，整理节点内部操作，并加入真实工程预览。",
+      "notes": [
+        "修复单节点框选后的覆盖层残留，保留多选拖动、Tab复用和快捷连线。",
+        "旧节点操作、帮助与图片编辑工具收回节点内部，不再点击即弹出外置执行条；取消普通节点自由拉伸控件。",
+        "点击才展开编辑面板，拖动和框选不展开；面板随节点移动并显示在相邻节点上方。",
+        "项目卡展示真实节点位置、类型和连线，按可见范围加载预览；快捷切换、搜索和批量管理保留。",
+        "减少旧节点常驻定位观察器和外置工具条订阅，保留原图缩放拖动、积分按需刷新、自动保存和撤销优化。",
+        "Seedance 2.0 Fast独立显示，不与普通版通道混淆，不改变实际参数和计费。",
+        "保留已有工程、历史、设置、素材和任务；复杂画布起步、松手停顿与长期内存改善仍待进一步验证。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.2"
+    },
     {
       "version": "3.0.1",
       "title": "HCYAI Canvas v3.0.1",
@@ -66,12 +82,22 @@
   ],
   "announcements": [
     {
+      "id": "announcement-20261024-v3-0-2",
+      "title": "华创云画布 3.0.2 已发布",
+      "body": "修复单节点框选覆盖，整理旧节点操作与帮助入口，底部项目卡现在展示真实工程预览。保留原图预览缩放拖动、积分按需刷新、已有画布和任务。复杂画布的拖动起步、松手停顿仍在持续优化。",
+      "level": "info",
+      "publishedAt": "2026-10-24T12:00:00+08:00",
+      "expiresAt": "",
+      "linkLabel": "查看 3.0.2 更新",
+      "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.2"
+    },
+    {
       "id": "announcement-20261023-v3-0-1",
       "title": "华创云画布 3.0.1 已发布",
       "body": "原图预览现在支持滚轮缩放和直接拖动；积分改为启动及按需刷新，减少重复请求。优化保存、撤销与部分平移计算，保留已有数据和操作习惯。复杂画布起步与松手停顿仍在持续优化。",
       "level": "info",
       "publishedAt": "2026-10-23T12:43:36.073Z",
-      "expiresAt": "",
+      "expiresAt": "2026-10-24T12:00:00+08:00",
       "linkLabel": "查看 3.0.1 更新",
       "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.1"
     },
