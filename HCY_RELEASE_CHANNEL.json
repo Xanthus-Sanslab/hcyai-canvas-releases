@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T09:55:00.000Z",
+  "updatedAt": "2026-10-30T06:55:00.000Z",
   "releases": [
+    {
+      "version": "3.0.4",
+      "title": "HCYAI Canvas v3.0.4",
+      "publishedAt": "2026-10-30T06:55:00.000Z",
+      "summary": "修复生成成功后的错误提示显示，区分完成提示与失败报错。",
+      "notes": [
+        "修复生成成功后，模型标识差异提示被显示为红色错误的问题。",
+        "生成完成提示与失败报错分开显示，结果可直接预览和下载。",
+        "错误信息继续显示错误码、原因和诊断编号。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.4"
+    },
     {
       "version": "3.0.3",
       "title": "HCYAI Canvas v3.0.3",
@@ -99,12 +111,23 @@
   ],
   "announcements": [
     {
+      "id": "announcement-v3-0-4-update",
+      "title": "请更新至 HCYAI Canvas v3.0.4",
+      "body": "HCYAI Canvas v3.0.4 已发布，请更新至此版本。\n\n修复生成成功后仍显示红色错误的问题，完成提示与失败报错分开显示。生成结果可直接预览和下载。\n\n点击右上角“更新”，检查并下载安装 v3.0.4。",
+      "level": "important",
+      "publishedAt": "2026-10-30T06:55:00.000Z",
+      "expiresAt": "",
+      "popup": true,
+      "linkLabel": "查看 v3.0.4 更新",
+      "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.4"
+    },
+    {
       "id": "announcement-v3-0-3-update",
       "title": "请更新至 HCYAI Canvas v3.0.3",
       "body": "HCYAI Canvas v3.0.3 已发布。\n\n更新深色与浅暖灰界面，完善创作节点库和画布助手浅色模式；增强节点描边和连接加号。\n\n生成任务支持跨画布后台续查与启动恢复；积分采用本地价格快照，Wan 3.0按秒显示消耗；报错增加诊断编号。\n\n新增使用中公告浮窗。\n\n点击右上角“更新”，检查并下载安装 v3.0.3。",
       "level": "important",
       "publishedAt": "2026-10-29T09:55:00.000Z",
-      "expiresAt": "",
+      "expiresAt": "2026-10-30T06:55:00.000Z",
       "popup": true,
       "linkLabel": "查看 v3.0.3 更新",
       "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.3"
