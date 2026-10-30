@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T06:55:00.000Z",
+  "updatedAt": "2026-10-30T08:20:00.000Z",
   "releases": [
+    {
+      "version": "3.0.5",
+      "title": "HCYAI Canvas v3.0.5",
+      "publishedAt": "2026-10-30T08:20:00.000Z",
+      "summary": "修复生成中状态误报，临时查询异常改为静默续查。",
+      "notes": [
+        "修复生成中、排队中和等待结果时的状态误报。",
+        "查询暂时超时后在后台继续获取结果，保留手动查询入口。",
+        "完善查询诊断记录，保留实际错误码与连接耗时。",
+        "撤下旧版升级弹窗。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.5"
+    },
     {
       "version": "3.0.4",
       "title": "HCYAI Canvas v3.0.4",
@@ -110,17 +123,6 @@
     }
   ],
   "announcements": [
-    {
-      "id": "announcement-v3-0-4-update",
-      "title": "请更新至 HCYAI Canvas v3.0.4",
-      "body": "HCYAI Canvas v3.0.4 已发布，请更新至此版本。\n\n修复生成成功后仍显示红色错误的问题，完成提示与失败报错分开显示。生成结果可直接预览和下载。\n\n点击右上角“更新”，检查并下载安装 v3.0.4。",
-      "level": "important",
-      "publishedAt": "2026-10-30T06:55:00.000Z",
-      "expiresAt": "",
-      "popup": true,
-      "linkLabel": "查看 v3.0.4 更新",
-      "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.0.4"
-    },
     {
       "id": "announcement-v3-0-3-update",
       "title": "请更新至 HCYAI Canvas v3.0.3",
