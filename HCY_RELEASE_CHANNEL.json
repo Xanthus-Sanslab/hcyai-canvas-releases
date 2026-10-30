@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T08:20:00.000Z",
+  "updatedAt": "2026-10-30T12:25:00.000Z",
   "releases": [
+    {
+      "version": "3.1.0",
+      "title": "HCYAI Canvas v3.1.0",
+      "publishedAt": "2026-10-30T12:25:00.000Z",
+      "summary": "完善任务续查、结果保存与跨画布恢复，修复网络波动导致的任务误报。",
+      "notes": [
+        "图像和视频统一后台续查，临时连接中断后继续获取原任务结果。",
+        "下载中断后继续保存缺失文件，已保存结果不重复下载。",
+        "切换画布不再中断视频等待，重新打开节点可继续查看任务。",
+        "修复批量执行将失败记为成功、慢查询重叠和完成后残留错误。",
+        "保留主动停止、预览、下载及原生成参数。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.1.0"
+    },
     {
       "version": "3.0.5",
       "title": "HCYAI Canvas v3.0.5",
