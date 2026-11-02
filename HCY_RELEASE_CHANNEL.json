@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T12:25:00.000Z",
+  "updatedAt": "2026-11-02T06:33:00.000Z",
   "releases": [
+    {
+      "version": "3.1.1",
+      "title": "HCYAI Canvas v3.1.1",
+      "publishedAt": "2026-11-02T06:33:00.000Z",
+      "summary": "更新云渠道模型，新增H3通道、Wan3 1080p和GPT Image 2.5系列。",
+      "notes": [
+        "新增MiniMax H3通道、Wan 3.0 1080p、GPT Image 2.5 Flare与Sunburst。",
+        "图片创作统一异步图片入口，保留任务原入口与后台续查。",
+        "更新模型目录、参考图、清晰度和消耗积分；Flare省略质量参数。",
+        "Seedance 2.0全部档位支持5–15秒。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.1.1"
+    },
     {
       "version": "3.1.0",
       "title": "HCYAI Canvas v3.1.0",
