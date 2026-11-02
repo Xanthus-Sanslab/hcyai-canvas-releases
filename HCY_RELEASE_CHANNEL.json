@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T06:33:00.000Z",
+  "updatedAt": "2026-11-02T07:50:00.000Z",
   "releases": [
+    {
+      "version": "3.1.2",
+      "title": "HCYAI Canvas v3.1.2",
+      "publishedAt": "2026-11-02T07:50:00.000Z",
+      "summary": "修正H3清晰度档位，完善特价标识和内置积分报价。",
+      "notes": [
+        "MiniMax H3支持2K与768p清晰度选择，分别对应原有两个型号。",
+        "Seedance 2.0的ty-sd2pro2c渠道显示为“特价”。",
+        "内置16个已确认型号的积分计算，首次在线查询失败仍可显示消耗。",
+        "在线报价刷新失败时保留已有价格，切换型号与时长即时计算。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.1.2"
+    },
     {
       "version": "3.1.1",
       "title": "HCYAI Canvas v3.1.1",
