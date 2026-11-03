@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T05:22:00.000Z",
+  "updatedAt": "2026-11-03T06:45:03.000Z",
   "releases": [
+    {
+      "version": "3.1.6",
+      "title": "HCYAI Canvas v3.1.6",
+      "publishedAt": "2026-11-03T06:45:03.000Z",
+      "summary": "RH 自动准备本地参考音视频，并在上传前检查内网连接。",
+      "notes": [
+        "连线后的本地参考视频、音频自动取链接，无需手动上传。",
+        "RH 生成前先检查团队内网中转，连接失败时不会上传素材。",
+        "RH 临时素材上传跟随系统网络配置。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.1.6"
+    },
     {
       "version": "3.1.5",
       "title": "HCYAI Canvas v3.1.5",
