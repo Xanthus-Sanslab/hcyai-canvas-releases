@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T04:28:15.000Z",
+  "updatedAt": "2026-11-03T05:22:00.000Z",
   "releases": [
+    {
+      "version": "3.1.5",
+      "title": "HCYAI Canvas v3.1.5",
+      "publishedAt": "2026-11-03T05:22:00.000Z",
+      "summary": "修复桌面版公告和积分查询的网络兼容问题。",
+      "notes": [
+        "公告和积分查询与桌面更新使用一致的系统网络配置。",
+        "积分查询区分连接、授权和限流错误，并保留上次余额。",
+        "自动检查更新失败时可打开 GitHub 发布页手动下载。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.1.5"
+    },
     {
       "version": "3.1.4",
       "title": "HCYAI Canvas v3.1.4",
