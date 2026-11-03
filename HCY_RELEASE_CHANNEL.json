@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T06:45:03.000Z",
+  "updatedAt": "2026-11-03T10:18:23.000Z",
   "releases": [
+    {
+      "version": "3.1.7",
+      "title": "HCYAI Canvas v3.1.7",
+      "publishedAt": "2026-11-03T10:18:23.000Z",
+      "summary": "RH 地址可配置，修复自动取片和提交状态显示。",
+      "notes": [
+        "RH 中转地址可在设置中授权并保存，重启保留地址。",
+        "修复自动状态登记和结果补发，成片自动下载并显示。",
+        "图像和视频受理后才显示生成进度，明确失败后恢复生成入口。",
+        "无回执提交有限次确认，结果未知时可查询原任务。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.1.7"
+    },
     {
       "version": "3.1.6",
       "title": "HCYAI Canvas v3.1.6",
