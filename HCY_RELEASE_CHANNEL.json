@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T07:50:00.000Z",
+  "updatedAt": "2026-11-03T01:15:00.000Z",
   "releases": [
+    {
+      "version": "3.1.3",
+      "title": "HCYAI Canvas v3.1.3",
+      "publishedAt": "2026-11-03T01:15:00.000Z",
+      "summary": "更新生成进度展示，完善视频节奏与恢复。",
+      "notes": [
+        "加粗进度条，优化百分比排版，移除底部空白和多余文案。",
+        "视频进度采用每笔固定的800–900秒节奏，后段逐渐放慢，上限96%。",
+        "切换画布或恢复任务后延续原进度，结果返回后立即显示。",
+        "图片进度节奏不变，原扫光略微加快。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.1.3"
+    },
     {
       "version": "3.1.2",
       "title": "HCYAI Canvas v3.1.2",
