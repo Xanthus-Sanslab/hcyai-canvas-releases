@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T10:18:23.000Z",
+  "updatedAt": "2026-11-04T02:00:00.000Z",
   "releases": [
+    {
+      "version": "3.1.8",
+      "title": "HCYAI Canvas v3.1.8",
+      "publishedAt": "2026-11-04T02:00:00.000Z",
+      "summary": "新增 Wan3 按次与 H3 全模态 2K，完善 RH 素材上传。",
+      "notes": [
+        "Wan 3.0 新增 720p 按次方案，支持 5–30 秒，525 积分/次。",
+        "MiniMax H3 新增全模态 2K 视频参考方案，支持 5–15 秒，525 积分/次。",
+        "H3 视频参考自动适配，原 2K、768p 和 RH 通道继续保留。",
+        "RH 上传连接异常时自动使用原素材上传通道，并更新内置地址。",
+        "RH 地址保存有明确反馈，口令及调用标识加密保存，重启自动恢复。",
+        "RH 可开启自动获取地址，手动保存地址优先。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.1.8"
+    },
     {
       "version": "3.1.7",
       "title": "HCYAI Canvas v3.1.7",
