@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T02:00:00.000Z",
+  "updatedAt": "2026-11-09T08:45:46.000Z",
   "releases": [
+    {
+      "version": "3.2.0",
+      "title": "HCYAI Canvas v3.2.0",
+      "publishedAt": "2026-11-09T08:45:46.000Z",
+      "summary": "新增 SAM H3、全能参考与双渠道独立积分。",
+      "notes": [
+        "绑定个人 SAM API Key 后，可按权限选择 1080p／768p 六档，包括特价 H3 快速版。",
+        "云渠道和 SAM 分别显示积分，余额不相加、不互扣。",
+        "SAM 支持连线使用图片、视频和音频参考，自动上传到所选线路。",
+        "RH 手动设置支持已授权的内网 HTTPS 地址和端口。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.2.0"
+    },
     {
       "version": "3.1.8",
       "title": "HCYAI Canvas v3.1.8",
