@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T08:45:46.000Z",
+  "updatedAt": "2026-11-10T01:35:18.000Z",
   "releases": [
+    {
+      "version": "3.2.1",
+      "title": "HCYAI Canvas v3.2.1",
+      "publishedAt": "2026-11-10T01:35:18.000Z",
+      "summary": "SAM H3 支持八种画幅，统一节点菜单排序和 Key 保存。",
+      "notes": [
+        "SAM H3 的文生视频和参考生成支持相同的八种画幅。",
+        "移除 AIX 与中继新增入口，已保存的中继节点仍可使用。",
+        "设置中的 Key 统一点击底部保存，旧 RH 中转填写项已移除。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.2.1"
+    },
     {
       "version": "3.2.0",
       "title": "HCYAI Canvas v3.2.0",
