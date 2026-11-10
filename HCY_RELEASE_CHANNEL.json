@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:35:18.000Z",
+  "updatedAt": "2026-11-10T02:04:29.000Z",
   "releases": [
+    {
+      "version": "3.2.2",
+      "title": "HCYAI Canvas v3.2.2",
+      "publishedAt": "2026-11-10T02:04:29.000Z",
+      "summary": "修复 SAM H3 参考素材编号被误判无效。",
+      "notes": [
+        "更新后可在原节点重新生成，无需重填 Key 或重建节点。",
+        "旧 RH 中转 H3 不再接受新任务，已有任务仍可查询和下载。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.2.2"
+    },
     {
       "version": "3.2.1",
       "title": "HCYAI Canvas v3.2.1",
