@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:04:29.000Z",
+  "updatedAt": "2026-11-10T09:26:25.000Z",
   "releases": [
+    {
+      "version": "3.2.3",
+      "title": "HCYAI Canvas v3.2.3",
+      "publishedAt": "2026-11-10T09:26:25.000Z",
+      "summary": "新增 Expo 图像档位，完善 H3 排队、进度和下载。",
+      "notes": [
+        "Expo IMAGE 2.1 支持 1K、2K、4K，新增 Expo M1；连入参考图自动切换编辑模式和积分。",
+        "Expo H3 排队时显示排队，开始生成后显示进度，完成后可预览和下载。",
+        "提交前提示素材和参数限制，上传与生成失败显示具体中文原因。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.2.3"
+    },
     {
       "version": "3.2.2",
       "title": "HCYAI Canvas v3.2.2",
