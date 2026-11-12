@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:26:25.000Z",
+  "updatedAt": "2026-11-12T09:31:10.786Z",
   "releases": [
+    {
+      "version": "3.2.4",
+      "title": "HCYAI Canvas v3.2.4",
+      "publishedAt": "2026-11-12T09:31:10.786Z",
+      "summary": "视频预览支持独立截帧，完善本地归档与渠道 Key 核验。",
+      "notes": [
+        "视频预览右上角三点菜单可截取首帧、尾帧或当前帧。",
+        "Expo 成片自动分类保存，选中本地素材可导出一个 ZIP。",
+        "云渠道 Key 保存前核验，暂时无法验证时保留原设置。",
+        "Expo H3S 已开放；超级画面档提交时自动优化提示词。",
+        "提示词优化使用 Expo DeepSeek Flash，积分按实际用量折算。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.2.4"
+    },
     {
       "version": "3.2.3",
       "title": "HCYAI Canvas v3.2.3",
