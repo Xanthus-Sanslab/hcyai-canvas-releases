@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T09:31:10.786Z",
+  "updatedAt": "2026-11-16T06:25:00.000Z",
   "releases": [
+    {
+      "version": "3.2.5",
+      "title": "HCYAI Canvas v3.2.5",
+      "publishedAt": "2026-11-16T06:25:00.000Z",
+      "summary": "云图像新增 Expo H3 Image，支持文生图和多图编辑。",
+      "notes": [
+        "支持 1K、2K、4K、6K，默认 2K 和 16:9。",
+        "连入参考图自动切换到图生图，积分随分辨率和图片数量更新。",
+        "Expo H3 系列节点新增 MiniMax H3 标注。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.2.5"
+    },
     {
       "version": "3.2.4",
       "title": "HCYAI Canvas v3.2.4",
