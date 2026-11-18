@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T04:17:30.845Z",
+  "updatedAt": "2026-11-18T04:24:25.135Z",
   "releases": [
+    {
+      "version": "3.3.0",
+      "title": "HCYAI Canvas v3.3.0",
+      "publishedAt": "2026-11-18T04:22:16.778Z",
+      "summary": "渲染性能与包体优化，连线流光与新手引导改版。",
+      "notes": [
+        "100 节点平移 P95 11.2ms，稳定 60fps；200 节点打包版实测 27.9ms。",
+        "拖动不再重复全图计算，200 节点纯计算耗时下降约 78%。",
+        "安装后体积从 1001MB 降到约 700MB，前端资源裁到 193MB。",
+        "连线新增粉色泛光流光；生成中提速 25%，空闲自动降频。",
+        "新手引导重写为 12 步，快捷键教学自带临时练习画布。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.3.0"
+    },
     {
       "version": "3.2.5",
       "title": "HCYAI Canvas v3.2.5",
