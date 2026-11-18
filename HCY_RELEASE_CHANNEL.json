@@ -1,21 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T03:45:51.311Z",
+  "updatedAt": "2026-11-18T04:17:30.845Z",
   "releases": [
-    {
-      "version": "3.3.0",
-      "title": "HCYAI Canvas v3.3.0",
-      "publishedAt": "2026-11-18T03:45:51.310Z",
-      "summary": "连线流光动效、画布重名保护与全新新手引导。",
-      "notes": [
-        "连线新增粉色泛光流光，生成中提速、空闲降频，浅色深色同一套。",
-        "画布名称不允许重复，重命名冲突会直接提示。",
-        "新手引导重写为 12 步，快捷键教学自带临时练习画布。",
-        "主题入口移入设置，顶栏弹窗改为主题同色淡底。",
-        "参考素材预览改为点按，重命名提示可正常关闭。"
-      ],
-      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.3.0"
-    },
     {
       "version": "3.2.5",
       "title": "HCYAI Canvas v3.2.5",
