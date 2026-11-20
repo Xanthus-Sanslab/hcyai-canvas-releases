@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T04:24:25.135Z",
+  "updatedAt": "2026-11-20T06:37:13.608Z",
   "releases": [
+    {
+      "version": "3.3.1",
+      "title": "HCYAI Canvas v3.3.1",
+      "publishedAt": "2026-11-20T06:32:59.811Z",
+      "summary": "多节点性能优化、节点重命名，以及 Expo 图片放大与扩图。",
+      "notes": [
+        "对多节点多连线进行了性能优化，减轻卡顿。",
+        "新增双击节点名称重命名功能，多生成时可以自定义名字。",
+        "新增 Expo 图片放大、图片扩图功能，点击云图像或上传图片节点即可体验。",
+        "侧边 Dock 栏可拖动。",
+        "优化安装包体。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.3.1"
+    },
     {
       "version": "3.3.0",
       "title": "HCYAI Canvas v3.3.0",
