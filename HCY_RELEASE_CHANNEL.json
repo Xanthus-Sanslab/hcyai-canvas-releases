@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T06:47:10.587Z",
+  "updatedAt": "2026-11-25T08:48:00.823Z",
   "releases": [
+    {
+      "version": "3.3.2",
+      "title": "HCYAI Canvas v3.3.2",
+      "publishedAt": "2026-11-25T08:48:00.823Z",
+      "summary": "画布性能优化，关闭确认与系统托盘体验升级。",
+      "notes": [
+        "云视频节点改为缩略图懒加载，点击后才播放，画布最多同时播放 3 个，减少初始加载压力。",
+        "小地图关闭时冻结末帧再收缩并移除模糊；100 节点测试初始视频请求 4→0、隐藏后几何更新 22→0。",
+        "关闭窗口新增确认弹窗，支持直接退出、最小化到托盘、取消和永久记住选择，可在设置中修改。",
+        "退出前自动等待画布保存；保存失败时保留窗口并支持重试，避免丢失最近修改。",
+        "托盘随启动常驻，右键提供打开、设置、更新、数据目录、反馈和退出；托盘退出静默保存后直接结束。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.3.2"
+    },
     {
       "version": "3.3.1",
       "title": "HCYAI Canvas v3.3.1",
@@ -342,6 +356,17 @@
     }
   ],
   "announcements": [
+    {
+      "id": "announcement-20261125-v3-3-2",
+      "title": "HCYAI Canvas v3.3.2 已发布",
+      "body": "本次更新带来画布性能优化，以及关闭确认与系统托盘升级。\n\n云视频节点改为缩略图懒加载，画布最多同时播放 3 个；小地图关闭时冻结末帧再收缩，减少实时渲染开销。\n\n关闭软件时可选择直接退出或最小化到托盘，并永久记住选择。托盘随软件启动常驻，右键可打开设置、检查更新、数据目录、问题反馈和退出；托盘退出会静默保存后直接结束。\n\n点击右上角「更新与公告」可检查并安装 v3.3.2。",
+      "level": "success",
+      "publishedAt": "2026-11-25T08:48:00.823Z",
+      "expiresAt": "2026-12-31T23:59:59.000Z",
+      "popup": false,
+      "linkLabel": "查看 v3.3.2 更新",
+      "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.3.2"
+    },
     {
       "id": "announcement-v3-0-3-update",
       "title": "请更新至 HCYAI Canvas v3.0.3",
