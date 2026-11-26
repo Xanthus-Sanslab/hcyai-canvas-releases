@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T08:48:00.823Z",
+  "updatedAt": "2026-11-26T07:41:50.680Z",
   "releases": [
+    {
+      "version": "3.3.5",
+      "title": "HCYAI Canvas v3.3.5",
+      "publishedAt": "2026-11-26T07:41:50.680Z",
+      "summary": "画布流畅度大幅提升，并修复视频状态、滚轮、拼音输入和托盘菜单问题。",
+      "notes": [
+        "大幅提升画布操作流畅度，降低中键平移和大画布缩放时的卡顿。",
+        "修复主渠道视频失败后仍停留在 100% 生成中的问题，并显示真实失败原因。",
+        "修复节点表面滚轮缩放异常，以及空白区连续滚轮间歇失灵。",
+        "修复 @图片 后拼音输入选区包住引用块，以及托盘右键菜单多余阴影。",
+        "云视频缩略图懒加载、小地图冻结末帧和托盘直接退出等能力继续保留。"
+      ],
+      "releaseUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.3.5"
+    },
     {
       "version": "3.3.2",
       "title": "HCYAI Canvas v3.3.2",
@@ -356,6 +370,17 @@
     }
   ],
   "announcements": [
+    {
+      "id": "announcement-20261126-v3-3-5",
+      "title": "HCYAI Canvas v3.3.5 已发布",
+      "body": "本次更新重点提升画布流畅度，并集中修复近期反馈的问题。\n\n中键平移、滚轮缩放和大画布交互更加稳定；主渠道视频失败后会正确结束并显示真实原因；同时修复 @图片 后的拼音输入选区和托盘菜单多余阴影。\n\n云视频缩略图懒加载、小地图冻结末帧、关闭确认和系统托盘等能力继续保留。\n\n点击右上角「更新与公告」可检查并安装 v3.3.5。",
+      "level": "success",
+      "publishedAt": "2026-11-26T07:41:50.680Z",
+      "expiresAt": "2027-01-31T23:59:59.000Z",
+      "popup": false,
+      "linkLabel": "查看 v3.3.5 更新",
+      "linkUrl": "https://github.com/Xanthus-Sanslab/hcyai-canvas-releases/releases/tag/v3.3.5"
+    },
     {
       "id": "announcement-20261125-v3-3-2",
       "title": "HCYAI Canvas v3.3.2 已发布",
